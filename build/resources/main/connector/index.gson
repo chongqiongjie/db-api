@@ -1,0 +1,8 @@
+import db.api.Connector
+
+model {
+	Iterable<Connector> connectorList
+}
+
+json tmpl.connector(connectorList ?: [])
+

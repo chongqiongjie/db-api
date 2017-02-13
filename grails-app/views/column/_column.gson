@@ -1,0 +1,7 @@
+import db.api.Column
+
+model {
+	Column column
+}
+
+json g.render(column)

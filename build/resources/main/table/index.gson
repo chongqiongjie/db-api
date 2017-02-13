@@ -1,0 +1,8 @@
+import db.api.Table
+
+model {
+	Iterable<Table> tableList
+}
+
+json tmpl.table(tableList ?: [])
+

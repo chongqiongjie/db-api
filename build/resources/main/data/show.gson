@@ -1,0 +1,7 @@
+import db.api.Data
+
+model {
+	Data data
+}
+
+json tmpl.data(data)

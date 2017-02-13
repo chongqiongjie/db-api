@@ -1,0 +1,7 @@
+import db.api.Connector
+
+model {
+	Connector connector
+}
+
+json g.render(connector)

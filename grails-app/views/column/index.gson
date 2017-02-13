@@ -1,0 +1,8 @@
+import db.api.Column
+
+model {
+	Iterable<Column> columnList
+}
+
+json tmpl.column(columnList ?: [])
+

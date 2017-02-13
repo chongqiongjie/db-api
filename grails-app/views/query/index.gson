@@ -1,0 +1,8 @@
+import db.api.Query
+
+model {
+	Iterable<Query> queryList
+}
+
+json tmpl.query(queryList ?: [])
+

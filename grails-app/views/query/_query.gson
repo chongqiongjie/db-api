@@ -1,0 +1,7 @@
+import db.api.Query
+
+model {
+	Query query
+}
+
+json g.render(query)

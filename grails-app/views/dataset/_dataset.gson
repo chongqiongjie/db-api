@@ -1,0 +1,7 @@
+import db.api.Dataset
+
+model {
+	Dataset dataset
+}
+
+json g.render(dataset)

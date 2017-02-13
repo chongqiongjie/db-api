@@ -1,0 +1,8 @@
+import db.api.Dataset
+
+model {
+	Iterable<Dataset> datasetList
+}
+
+json tmpl.dataset(datasetList ?: [])
+

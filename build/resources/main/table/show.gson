@@ -1,0 +1,7 @@
+import db.api.Table
+
+model {
+	Table table
+}
+
+json tmpl.table(table)
